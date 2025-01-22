@@ -6,9 +6,7 @@ To install simply add the following to your .devcontainer.json
 
 ```
 "features": {
-  "ghcr.io/tailscale/codespace/tailscale": {
-    "version": "latest"
-  }
+  "ghcr.io/loft-sh/devpod/tailscale-userspace": {}
 }
 ```
 

@@ -12,8 +12,8 @@ jobs:
         with:
           publish-features: "true"
           base-path-to-features: "./src"
-          features-namespace: "loft-sh/tailscale-devcontainer-feature"
-          templates-namespace: "loft-sh/tailscale-devcontainer-feature"
+          features-namespace: "loft-sh/devpod"
+          templates-namespace: "loft-sh/devpod"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 permissions:
