@@ -1,0 +1,9 @@
+{
+  "name": "Tailscale userspace networking",
+  "id": "tailscale-userspace",
+  "version": "1.0.0",
+  "description": "Connect to your tailnet in your devcontainer",
+  "documentationURL": "https://github.com/loft-sh/tailscale-devcontainer-feature/",
+  "licenseURL": "https://github.com/loft-sh/tailscale-devcontainer-feature/blob/main/LICENSE",
+  "entrypoint": "/usr/local/sbin/tailscaled-entrypoint"
+}
